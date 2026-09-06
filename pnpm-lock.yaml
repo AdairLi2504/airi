@@ -19831,6 +19831,9 @@ packages:
     resolution: {integrity: sha512-TEU+nJVUUnA4CYJFLvK5X9AOeH4KvDvhIfm0vV1GaQRtchnG0hgK5p8hw/xjv8cunWYCsiPCSDzObPyhEwq3KQ==}
     engines: {node: '>=0.4.0'}
 
+  xsai-chromium-prompt@0.2.2:
+    resolution: {integrity: sha512-XL7s/L9WhxRMUl3DOCq1F+WkL2QanfgT8N3A/8g1/5E1wsL8vmOWnBCOW6p7gpwDLHZ+/kNT7SXenk6ILwCNNw==}
+
   xsschema@0.5.0:
     resolution: {integrity: sha512-7hZNbGQmZTL5qVg8VwA8Ad/r9fFPFNdCoWQRfisN/3p/+riicAZSspLi0/wAz3KJ2v8lhZMyl2BkEMSGfsF2HA==}
     peerDependencies:
@@ -19853,9 +19856,6 @@ packages:
         optional: true
       zod-to-json-schema:
         optional: true
-
-  xsai-chromium-prompt@0.2.2:
-    resolution: {integrity: sha512-XL7s/L9WhxRMUl3DOCq1F+WkL2QanfgT8N3A/8g1/5E1wsL8vmOWnBCOW6p7gpwDLHZ+/kNT7SXenk6ILwCNNw==}
 
   xsschema@0.5.0-beta.8:
     resolution: {integrity: sha512-y74st5jRCpO/EMhxi4MC2/GKpWVL2LL12utk5QK2ICCEXVOV6BvOLYp6dXkJBIb4BUCfaVCEei5/cY+JTv3CRw==}
@@ -26861,6 +26861,9 @@ snapshots:
     dependencies:
       '@xsai/shared': 0.5.0-beta.6
 
+  '@xsai/shared-chat@0.5.0-beta.8':
+    dependencies:
+      '@xsai/shared': 0.5.0-beta.8
 
   '@xsai/shared-stream@0.5.0':
     dependencies:
